@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <!-- Dashboard is a JSP page served directly; no servlet needed -->
+    <jsp-file>/dashboard.jsp</jsp-file>
+    <url-pattern>/dashboard</url-pattern>
+</web-app>

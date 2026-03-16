@@ -1,0 +1,2 @@
+I001|Nimal Silva|nimal@ds.lk|0712345678|A1,B|true
+I002|Saman Kumara|saman@ds.lk|0723456789|B,C|true
