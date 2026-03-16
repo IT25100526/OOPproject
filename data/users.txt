@@ -1,3 +1,0 @@
-U001|admin|d41d8cd98f00b204e9800998ecf8427e|Admin
-U002|kamal|d41d8cd98f00b204e9800998ecf8427e|Student
-U003|nimal|d41d8cd98f00b204e9800998ecf8427e|Instructor

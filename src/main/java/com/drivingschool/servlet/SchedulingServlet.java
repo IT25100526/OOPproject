@@ -1,6 +1,8 @@
 package com.drivingschool.servlet;
 
-public class SchedulingServlet   {
 
+
+
+public class SchedulingServlet   {
 
 }

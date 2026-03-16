@@ -1,0 +1,28 @@
+package com.drivingschool.util;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+/**
+ * Database connection utility.
+ * Reads credentials from application.properties via System properties.
+ */
+public class DBConnection {
+
+    private static final String URL      = "jdbc:mysql://localhost:3306/driving_school_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true";
+    private static final String USER     = "root";
+    private static final String PASSWORD = "12345678";
+
+    static {
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException("MySQL Driver not found!", e);
+        }
+    }
+
+    public static Connection getConnection() throws SQLException {
+        return DriverManager.getConnection(URL, USER, PASSWORD);
+    }
+}

@@ -1,3 +1,0 @@
-S001|Kamal Perera|kamal@mail.com|0771234567|B|2025-01-10
-S002|Nimali Fernando|nimali@mail.com|0769876543|A1|2025-01-12
-S003|Ruwan Silva|ruwan@mail.com|0712223344|B|2025-01-15
