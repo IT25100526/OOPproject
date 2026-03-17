@@ -12,7 +12,7 @@ public class DBConnection {
 
     private static final String URL      = "jdbc:mysql://localhost:3306/driving_school_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true";
     private static final String USER     = "root";
-    private static final String PASSWORD = "12345678";
+    private static final String PASSWORD = "";
 
     static {
         try {
