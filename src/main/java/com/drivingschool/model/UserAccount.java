@@ -16,19 +16,19 @@ public class UserAccount {
         this.role         = role;
     }
 
-    // ── Getters ──────────────────────────────────────────────
+    // ── Getters
     public String getUserId()       { return userId; }
     public String getUsername()     { return username; }
     public String getPasswordHash() { return passwordHash; }
     public String getRole()         { return role; }
 
-    // ── Setters ──────────────────────────────────────────────
+    // ── Setters
     public void setUserId(String userId)             { this.userId       = userId; }
     public void setUsername(String username)         { this.username     = username; }
     public void setPasswordHash(String passwordHash) { this.passwordHash = passwordHash; }
     public void setRole(String role)                 { this.role         = role; }
 
-    // ── File serialization ───────────────────────────────────
+    // ── File serialization
     public String toFileString() {
         return userId + "|" + username + "|" + passwordHash + "|" + role;
     }

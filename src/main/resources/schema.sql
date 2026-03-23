@@ -3,7 +3,7 @@
 CREATE DATABASE IF NOT EXISTS driving_school_db;
 USE driving_school_db;
 
--- ── Users (login accounts) ────────
+-- ── Users (login accounts)
 CREATE TABLE IF NOT EXISTS users (
     user_id      VARCHAR(20)  PRIMARY KEY,
     username     VARCHAR(50)  NOT NULL UNIQUE,
@@ -13,11 +13,10 @@ CREATE TABLE IF NOT EXISTS users (
 );
 
 
--- ── Sample Data ───────────────────────────────────────────────
+-- ── Sample Data
 INSERT IGNORE INTO users VALUES
   ('U001','admin','admin123','Admin',NOW()),
-  ('U002','kamal','kamal123','Student',NOW()),
-  ('U003','nimal','nimal123','Instructor',NOW());
+
 
 
 SELECT 'Database setup complete!' AS Status;

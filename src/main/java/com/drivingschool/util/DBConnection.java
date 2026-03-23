@@ -4,9 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-/**
- * Database connection utility – Aiven Cloud MySQL
- */
+
 public class DBConnection {
 
     private static final String HOST     = "drivingchooldb-my-4536.a.aivencloud.com";
